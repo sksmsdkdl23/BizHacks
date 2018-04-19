@@ -1,0 +1,95 @@
+﻿@model IEnumerable<BizHacks.Models.Search>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CampaignName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FiscalYear)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FiscalMonth)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Impressions)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Clicks)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CTR)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cost)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Visit)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TotalOnlineOrders)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TotalOnlineRevenue)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BounceRate)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CampaignName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FiscalYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FiscalMonth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Impressions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clicks)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CTR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Visit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalOnlineOrders)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalOnlineRevenue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BounceRate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SearchId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SearchId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SearchId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

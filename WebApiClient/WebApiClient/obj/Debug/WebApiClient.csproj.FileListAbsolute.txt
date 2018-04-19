@@ -1,0 +1,10 @@
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\bin\WebApiClient.dll.config
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\bin\WebApiClient.dll
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\bin\WebApiClient.pdb
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\obj\Debug\WebApiClient.csproj.CoreCompileInputs.cache
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\obj\Debug\WebApiClient.csproj.CopyComplete
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\obj\Debug\WebApiClient.dll
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\obj\Debug\WebApiClient.pdb
+C:\Users\Phili\Desktop\WebApiClient\WebApiClient\WebApiClient\obj\Debug\WebApiClient.csprojResolveAssemblyReference.cache
