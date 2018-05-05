@@ -1,0 +1,44 @@
+#faq-container {
+	height: auto !important;
+	padding-top: 40px;
+	min-height: 70% !important;
+	overflow: hidden;
+}
+
+#faq-container img {
+	min-height: 100%;
+	min-width: 120%;
+	position: relative;
+
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+	   -moz-animation: fadein 3s; /* Firefox < 16 */
+	    -ms-animation: fadein 3s; /* Internet Explorer */
+	     -o-animation: fadein 3s; /* Opera < 12.1 */
+	        animation: fadein 3s;
+}
+
+#faq-questions {
+	position: fixed;
+	left: 10%;
+	top: 10%;
+}
+
+#faq-questions h3 {
+	font-size: 3em;
+	font-weight: bold;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+	   -moz-animation: fadein 5s; /* Firefox < 16 */
+	    -ms-animation: fadein 5s; /* Internet Explorer */
+	     -o-animation: fadein 5s; /* Opera < 12.1 */
+	        animation: fadein 5s;
+}
+
+#faq-questions p {
+	font-size: 1.5em;
+	font-weight: bold;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+	   -moz-animation: fadein 5s; /* Firefox < 16 */
+	    -ms-animation: fadein 5s; /* Internet Explorer */
+	     -o-animation: fadein 5s; /* Opera < 12.1 */
+	        animation: fadein 5s;
+}

@@ -1,0 +1,47 @@
+{
+   "display": [
+       {
+           "socialId": 1,
+           "campaignName": "Year 2018-Campaign 1757",
+           "fiscalYear": "2018",
+           "fiscalMonth": "nov",
+           "impressions": "272602",
+           "clicks": "5065",
+           "ctr": "1.28",
+           "cost": "3000",
+           "visit": "355831325",
+           "totalOnlineOrders": "12266",
+           "totalOnlineRevenue": "37678",
+           "bounceRate": "8"
+       },
+       {
+           "socialId": 2,
+           "campaignName": "Year 2018-Campaign 1745",
+           "fiscalYear": "2018",
+           "fiscalMonth": "nov",
+           "impressions": "443309",
+           "clicks": "14981",
+           "ctr": "2.32",
+           "cost": "4016",
+           "visit": "29006",
+           "totalOnlineOrders": "318",
+           "totalOnlineRevenue": "39881",
+           "bounceRate": "49"
+       },
+       {
+           "socialId": 3,
+           "campaignName": "Year 2018-Campaign 1756",
+           "fiscalYear": "2018",
+           "fiscalMonth": "nov",
+           "impressions": "408202",
+           "clicks": "10059",
+           "ctr": "1.69",
+           "cost": "2999",
+           "visit": "2213",
+           "totalOnlineOrders": "964359",
+           "totalOnlineRevenue": "3134",
+           "bounceRate": "75"
+       }
+   ]
+}
+
